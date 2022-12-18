@@ -10,9 +10,7 @@ public class example7 {
         System.out.print("введите количество столбцов массива: ");
         int b = id.nextInt();
         int Array[][] = new int[a][b];
-        int z = 0;
-        int x = 0;
-        int c = 0;
+        int z = 0,x = 0, c = 0;
         for (int i = 0; c < Array.length; c++) {
             for (int j = 0; j < (Array[i].length - z); j++) {
                 Array[i][j] = x;
@@ -26,15 +24,11 @@ public class example7 {
             }
             z++;
         }
-        int v = 0;
         for (int i = 0; i < Array.length; i++) {
-            int n = i+1;
             System.out.println();
             for (int j = 0; j < Array[i].length; j++) {
                 System.out.print(Array[i][j] + " ");
-                v++;
             }
-            v=0;
         }
     }
 }
